@@ -1,2 +1,2 @@
-#!/#!/bin/bash
-gregrep -A 3 "root" /etc/passwd | grep -v "^--$"
+#!/bin/bash
+grep -A 3 "root" /etc/passwd | grep -v "^--$"
